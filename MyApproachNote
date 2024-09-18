@@ -1,0 +1,9 @@
+Initially i havn't faced any difficulties while starting the APP.
+
+Here I have used CSS for designing the APP and used the Flex for adjusting the Small, Medium, and Large Screens to adapt the screen.
+
+For Redux state management i have used Redux-toolkit and managed the store and reducer.
+
+While doing the redux store state management i have made one mistake due to that the api is getting looped infinite times. Then i realize the state which is causing the issue. 
+
+due to less time. I haven't create a test case for this app. If i get the chance i will create a test case for the app.
