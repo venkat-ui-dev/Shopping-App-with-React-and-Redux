@@ -1,50 +1,23 @@
-# React + TypeScript + Vite
+# Shopping Cart App with React and Redux
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the course source code and other extra materials like slides.
 
-Currently, two official plugins are available:
+## How to use
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Downloading code snapshots
 
-## Expanding the ESLint configuration
+You can download all the content of a branch via the "Code" button here on Github. You can then either [clone](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) the repository or simply download the selected branch content as a ZIP file.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Important:** You always download the **main branch content!**
 
-- Configure the top-level `parserOptions` property like this:
+You can then dive into the interesting folders (e.g. the individual code snapshots) locally on your hard drive.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### Running the attached code
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+You can use the attached code simply to compare it to yours. But you can also run it.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+To run my code, navigate into a specific code snapshot folder via the `cd` command in your command prompt or terminal first.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Then run `npm install` to install all required dependencies (this will create a `/node_modules` folder).
+
+Once installed the node_modules then you need to run the code using `npm run`.
