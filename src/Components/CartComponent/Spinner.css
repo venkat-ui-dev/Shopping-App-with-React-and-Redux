@@ -1,0 +1,16 @@
+#loaderContainer {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* Horizontally center */
+    align-items: center;
+    /* Vertically center */
+}
+
+.loader {
+    width: 50px;
+    /* Adjust based on your image size */
+    height: 50px;
+    /* Adjust based on your image size */
+}
